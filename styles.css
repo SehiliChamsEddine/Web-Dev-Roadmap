@@ -403,7 +403,11 @@ height:30px;
 
 
 
-
+@media only screen and (max-width: 360px) { 
+  .message .text {
+    width: 250px;
+  }
+}
 
 
 
@@ -432,11 +436,11 @@ height:30px;
   }
   .message .open-message {
     right:10px;
-
+bottom: 20px;
   }
   .message .text {
     right:10px;
- 
+    bottom: 20px;
 
   }
   .roadmap {
