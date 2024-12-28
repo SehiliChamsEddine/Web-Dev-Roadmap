@@ -353,14 +353,14 @@ flex-direction: column;
   border-top: 2px solid #ff5622c7;
   border-right: 2px solid #ff5622c7; 
   border-radius: 50%;
-  overflow: hidden;
-  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2), -10px -10px 15px rgba(255, 255, 255, 0.5); /* Enhanced shadow */
+  overflow: hidden; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), -6px -6px 11px rgba(255, 255, 255, 0.5) inset;
+
   transition: all 0.3s ease-in-out;
   
 }
 .roadmap .content:hover {
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), -6px -6px 11px rgba(255, 255, 255, 0.5) inset;
 
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2), -10px -10px 15px rgba(255, 255, 255, 0.5); /* Enhanced shadow */
   transform: scale(1.1); /* Adds a zoom effect */
   border-color: #ff5622; /* Highlights the border color */
 }

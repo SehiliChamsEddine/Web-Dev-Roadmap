@@ -12,10 +12,10 @@ messageOpen.addEventListener('click', () => {
 			strings: [
 				"Hi there, I am Sehili Chams Eddine, an inspired web developer like you, and I want to welcome you to this simple roadmap, which will be your first step toward becoming a professional web developer. Don't forget to bring coffee and enjoy learning!",
 			],
-			typeSpeed: 60, // Speed of typing
-			backSpeed: 50, // Speed of backspacing
+			typeSpeed: 75, // Speed of typing
+			backSpeed: 100, // Speed of backspacing
 			backDelay: 1000, // Delay before starting to backspace
-			startDelay: 500, // Delay before starting typing
+			startDelay: 100, // Delay before starting typing
 			loop: false, // Whether to loop the typing effect
 			showCursor: false,
 		});
@@ -34,9 +34,10 @@ const buttonHTML =
 
 const typed = new Typed('.typing-text', {
 	strings: [st],
-	typeSpeed: 60, // Speed of typing
-	backSpeed: 50, // Speed of backspacing
+	typeSpeed: 75, // Speed of typing
+	backSpeed: 100, // Speed of backspacing
 	backDelay: 1000, // Delay before starting to backspace
+	startDelay: 50, // Delay before starting typing
 	loop: false, // Whether to loop the typing effect
 	showCursor: false,
 	html: true, // Allow HTML content
