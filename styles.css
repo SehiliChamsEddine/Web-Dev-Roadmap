@@ -430,6 +430,15 @@ height:30px;
     font-size: 1.2rem;
    
   }
+  .message .open-message {
+    right:10px;
+
+  }
+  .message .text {
+    right:10px;
+ 
+
+  }
   .roadmap {
     grid-template-rows: repeat(6,1fr);
     grid-template-columns:repeat(3,1fr) ;

@@ -25,9 +25,9 @@ messageClose.addEventListener('click', () => {
 	messageText.classList.remove('add');
 	messageOpen.classList.remove('remove');
 });
-const st = `<h1>Welcome To The Web Development<br><span>Roadmap</span></h1>
+const st = `<h1>Welcome To <br> The Web <br> Development<br><span>Roadmap</span></h1>
 <h2>Start Your Web Development Journey today</h2>
-<p>Unlock the tools, technologies, and knowledge to become a web developer. Let’s build your future!</p>`;
+<p>Unlock the tools, technologies, and knowledge to become a web developer.<br> Let’s build your future!</p>`;
 
 const buttonHTML =
 	'<a href="#roadmap" class="cta-button fade-in">Explore Roadmap</a>';
